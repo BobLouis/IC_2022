@@ -15,7 +15,7 @@ parameter CAL = 3'b010;
 parameter OUT = 3'b011;
 
 reg [9:0]min;
-reg [2:0]arr[0:7];
+reg [3:0]arr[0:8];
 reg [7:0]cnt;
 wire [6:0]cmp;
 reg [2:0]idx;
