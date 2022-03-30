@@ -32,7 +32,7 @@ end
 
 always@(*)begin
     if(RST)
-        next_state <= IDLE;
+        next_state = IDLE;
     else begin
         case(state)
             IDLE:
@@ -180,6 +180,10 @@ always@(*)begin
     if(state == READ)begin
         W = cnt;
         J = arr[cnt];
+    end
+    else begin 
+        W = W;
+        J = J;
     end
 end
 
