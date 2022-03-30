@@ -1,8 +1,8 @@
 module JAM (
 input CLK,
 input RST,
-output reg [2:0] W,
-output reg [2:0] J,
+output  [2:0] W,
+output  [2:0] J,
 input [6:0] Cost,
 output reg [3:0] MatchCount,
 output reg [9:0] MinCost,
@@ -176,7 +176,9 @@ always@(posedge CLK or posedge RST)begin
     
 end
 
-always@(*)begin
+assign W = cnt;
+assign J = arr[cnt];
+/*always@(*)begin
     if(state == READ)begin
         W = cnt;
         J = arr[cnt];
@@ -185,7 +187,7 @@ always@(*)begin
         W = W;
         J = J;
     end
-end
+end*/
 
 //DATA INPUT
 always@(posedge CLK or posedge RST)begin

@@ -1,0 +1,7 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(30Mar2022:12:31:19):( ncverilog -f ncvlog.f +nc64bit )
+s2::(30Mar2022:12:31:32):( ncverilog -f ncvlog.f +nc64bit +define+P2 )
+s3::(30Mar2022:12:31:37):( ncverilog -f ncvlog.f +nc64bit +define+P3 )

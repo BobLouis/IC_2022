@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : JAM
+Version: Q-2019.12
+Date   : Wed Mar 30 12:40:43 2022
+****************************************
+
+Operating Conditions: nom_pvt   Library: dw_foundation.sldb
+Wire Load Model Mode: top
+
+  Startpoint: MatchCount_reg[0]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: MatchCount[0]
+            (output port clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  MatchCount_reg[0]/clocked_on (**SEQGEN**)               0.00       0.50 r
+  MatchCount_reg[0]/Q (**SEQGEN**)                        0.00       0.50 r
+  MatchCount[0] (out)                                     0.00       0.50 r
+  data arrival time                                                  0.50
+
+  clock CLK (fall edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.50       5.50
+  clock uncertainty                                      -0.10       5.40
+  output external delay                                   0.00       5.40
+  data required time                                                 5.40
+  --------------------------------------------------------------------------
+  data required time                                                 5.40
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        4.90
+
+
+1
