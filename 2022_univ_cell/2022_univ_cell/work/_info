@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/bob90/verilog/IC_design_Homework/HW3
+vJAM
+!s110 1648608530
+!i10b 1
+!s100 gT9nIFlzb[FoGe@lXP12Y0
+I99UIAzN^E7IZ40ko2`0GX1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/bob90/verilog/IC_2022/2022_univ_cell/2022_univ_cell
+w1648608516
+8JAM.v
+FJAM.v
+L0 1
+Z2 OV;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1648608530.000000
+!s107 JAM.v|
+!s90 -reportprogress|300|JAM.v|
+!i113 1
+Z3 tCvgOpt 0
+n@j@a@m
+vtestfixture
+DXx6 sv_std 3 std 0 22 ;edk3;YfCLjCm[Hd=`UGQ2
+!s110 1648608343
+!i10b 1
+!s100 4;dNjkRdF1@nOW6Llo]5j2
+I?M2i^RT2<Z`[@3CgNE@J12
+R0
+!s105 tb_sv_unit
+S1
+R1
+w1648458130
+8C:/Users/bob90/verilog/IC_2022/2022_univ_cell/2022_univ_cell/tb.sv
+FC:/Users/bob90/verilog/IC_2022/2022_univ_cell/2022_univ_cell/tb.sv
+L0 18
+R2
+r1
+!s85 0
+31
+!s108 1648608343.000000
+!s107 C:/Users/bob90/verilog/IC_2022/2022_univ_cell/2022_univ_cell/tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/bob90/verilog/IC_2022/2022_univ_cell/2022_univ_cell/tb.sv|
+!i113 1
+o-work work -sv
+R3
