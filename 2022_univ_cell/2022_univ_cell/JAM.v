@@ -76,24 +76,24 @@ wire [3:0]a0, a1, a2, a3, a4, a5, a6, a7;
 wire [3:0]b0, b1, b2, b3;
 wire [3:0]c0, c1;
 wire [3:0]d0;
-assign a0 = 4'd8;
-assign a1 = (1 > idx && arr[idx] <= arr[1]) ? 4'd1 : 4'd8;
-assign a2 = (2 > idx && arr[idx] <= arr[2]) ? 4'd2 : 4'd8;
-assign a3 = (3 > idx && arr[idx] <= arr[3]) ? 4'd3 : 4'd8;
-assign a4 = (4 > idx && arr[idx] <= arr[4]) ? 4'd4 : 4'd8;
-assign a5 = (5 > idx && arr[idx] <= arr[5]) ? 4'd5 : 4'd8;
-assign a6 = (6 > idx && arr[idx] <= arr[6]) ? 4'd6 : 4'd8;
-assign a7 = (7 > idx && arr[idx] <= arr[7]) ? 4'd7 : 4'd8;
+// assign a0 = 4'd8;
+// assign a1 = (1 > idx && arr[idx] <= arr[1]) ? 4'd1 : 4'd8;
+// assign a2 = (2 > idx && arr[idx] <= arr[2]) ? 4'd2 : 4'd8;
+// assign a3 = (3 > idx && arr[idx] <= arr[3]) ? 4'd3 : 4'd8;
+// assign a4 = (4 > idx && arr[idx] <= arr[4]) ? 4'd4 : 4'd8;
+// assign a5 = (5 > idx && arr[idx] <= arr[5]) ? 4'd5 : 4'd8;
+// assign a6 = (6 > idx && arr[idx] <= arr[6]) ? 4'd6 : 4'd8;
+// assign a7 = (7 > idx && arr[idx] <= arr[7]) ? 4'd7 : 4'd8;
 
-assign b0 = (arr[a0] < arr[a1]) ? a0 : a1;
-assign b1 = (arr[a2] < arr[a3]) ? a2 : a3;
-assign b2 = (arr[a4] < arr[a5]) ? a4 : a5;
-assign b3 = (arr[a6] < arr[a7]) ? a6 : a7;
+// assign b0 = (arr[a0] < arr[a1]) ? a0 : a1;
+// assign b1 = (arr[a2] < arr[a3]) ? a2 : a3;
+// assign b2 = (arr[a4] < arr[a5]) ? a4 : a5;
+// assign b3 = (arr[a6] < arr[a7]) ? a6 : a7;
 
-assign c0 = (arr[b0] < arr[b1]) ? b0 : b1;
-assign c1 = (arr[b2] < arr[b3]) ? b2 : b3;
+// assign c0 = (arr[b0] < arr[b1]) ? b0 : b1;
+// assign c1 = (arr[b2] < arr[b3]) ? b2 : b3;
 
-assign d0 = (arr[c0] < arr[c1]) ? c0 : c1;
+// assign d0 = (arr[c0] < arr[c1]) ? c0 : c1;
 
 //SORTING
 always@(posedge CLK or posedge RST)begin
